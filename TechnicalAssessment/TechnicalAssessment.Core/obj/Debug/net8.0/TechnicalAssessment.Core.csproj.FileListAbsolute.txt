@@ -1,0 +1,14 @@
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\bin\Debug\net8.0\TechnicalAssessment.Core.deps.json
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\bin\Debug\net8.0\TechnicalAssessment.Core.dll
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\bin\Debug\net8.0\TechnicalAssessment.Core.pdb
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.csproj.AssemblyReference.cache
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.AssemblyInfoInputs.cache
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.AssemblyInfo.cs
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.csproj.CoreCompileInputs.cache
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.dll
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\refint\TechnicalAssessment.Core.dll
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.pdb
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\ref\TechnicalAssessment.Core.dll
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\bin\Debug\net8.0\TechnicalAssessment.Core.runtimeconfig.json
+C:\Users\Chukwudi Odoala\source\repos\TechnicalAssessment\TechnicalAssessment.Core\obj\Debug\net8.0\TechnicalAssessment.Core.genruntimeconfig.cache
