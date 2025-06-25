@@ -1,0 +1,27 @@
+<div class="product-list-container">
+  <div class="header">
+    <h2>Product List</h2>
+    <a routerLink="/add" class="add-link">+ Add Product</a>
+  </div>
+
+  <div class="table-wrapper">
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td>{{ product.name }}</td>
+          <td>{{ product.description }}</td>
+          <td>${{ product.price }}</td>
+          <td>{{ product.categoryName }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

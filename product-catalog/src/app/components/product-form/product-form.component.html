@@ -1,0 +1,34 @@
+<div class="form-container">
+  <form class="product-form" (ngSubmit)="submit()">
+
+    <div class="">
+    <a routerLink="/" class="back-button">← Back to List</a>
+    </div>
+    <h2>Add Product</h2>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" [(ngModel)]="product.name" name="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" [(ngModel)]="product.description" name="description" rows="3" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="price">Price</label>
+      <input type="number" id="price" [(ngModel)]="product.price" name="price" required />
+    </div>
+
+    <div class="form-group">
+      <label for="categoryId">Category</label>
+      <select id="categoryId" [(ngModel)]="product.categoryId" name="categoryId" required>
+        <option value="" disabled>Select a category</option>
+        <option *ngFor="let cat of categories" [value]="cat.id">{{ cat.name }}</option>
+      </select>
+    </div>
+
+    <button type="submit">Create Product</button>
+  </form>
+</div>

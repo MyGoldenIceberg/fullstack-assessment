@@ -1,0 +1,111 @@
+// Define theme colors
+$accent: #2563eb;
+$bg-light: #f9fafb;
+$border: #d1d5db;
+$text-color: #1f2937;
+$hover-bg: #1d4ed8;
+$input-radius: 8px;
+
+.product-form {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 14px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.07);
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.product-form h2 {
+  color: $accent;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: $text-color;
+  }
+
+  input,
+  textarea,
+  select {
+    padding: 0.75rem;
+    border: 1px solid $border;
+    border-radius: $input-radius;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+    &:focus {
+      border-color: $accent;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+    }
+  }
+}
+
+button[type='submit'] {
+  padding: 0.9rem;
+  background-color: $accent;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: $input-radius;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $hover-bg;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-form {
+    padding: 1.5rem;
+  }
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f8fafc;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+.back-button {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+}
